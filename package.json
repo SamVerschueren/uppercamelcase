@@ -4,7 +4,7 @@
   "description": "Convert a dash/dot/underscore/space separated string to UpperCamelCase",
   "main": "index.js",
   "scripts": {
-    "test": "mocha test"
+    "test": "node_modules/.bin/mocha test"
   },
   "repository": {
     "type": "git",
@@ -28,5 +28,9 @@
   "homepage": "https://github.com/SamVerschueren/uppercamelcase",
   "dependencies": {
     "camelcase": "^1.0.2"
+  },
+  "devDependencies": {
+    "chai": "^2.2.0",
+    "mocha": "^2.2.4"
   }
 }
