@@ -1,7 +1,8 @@
 # UpperCamelCase
 
-> Convert a dash/dot/underscore/space separated string to UpperCamelCase: `foo-bar` → `FooBar`
+[![Build Status](http://img.shields.io/travis/SamVerschueren/uppercamelcase.svg)](https://travis-ci.org/SamVerschueren/uppercamelcase)
 
+> Convert a dash/dot/underscore/space separated string to UpperCamelCase: `foo-bar` → `FooBar`
 
 ## Install
 
@@ -40,7 +41,7 @@ upperCamelCase(process.argv[3]);
 
 ## Related
 
-See [`camelcase`](https://github.com/sindresorhus/camelcase).
+See [`camelcase`](https://github.com/sindresorhus/camelcase) for the lowerCamelCase variant.
 
 ## License
 
