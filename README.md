@@ -1,6 +1,4 @@
-# UpperCamelCase
-
-[![Build Status](https://travis-ci.org/SamVerschueren/uppercamelcase.svg?branch=master)](https://travis-ci.org/SamVerschueren/uppercamelcase)
+# UpperCamelCase [![Build Status](https://travis-ci.org/SamVerschueren/uppercamelcase.svg?branch=master)](https://travis-ci.org/SamVerschueren/uppercamelcase)
 
 > Convert a dash/dot/underscore/space separated string to UpperCamelCase: `foo-bar` → `FooBar`
 
@@ -37,11 +35,17 @@ console.log(process.argv[3]);
 //=> --foo-bar
 upperCamelCase(process.argv[3]);
 //=> FooBar
+
+camelCase('foo', 'bar');
+//=> 'FooBar'
+
+camelCase('__foo__', '--bar');
+//=> 'FooBar'
 ```
 
 ## Related
 
-See [`camelcase`](https://github.com/sindresorhus/camelcase) for the lowerCamelCase variant.
+- [`camelcase`](https://github.com/sindresorhus/camelcase) - The lowerCamelCase variant
 
 ## License
 
