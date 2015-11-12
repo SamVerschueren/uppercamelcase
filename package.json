@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Convert a dash/dot/underscore/space separated string to UpperCamelCase",
   "scripts": {
-    "test": "mocha test"
+    "test": "xo && ava"
   },
   "repository": "SamVerschueren/uppercamelcase",
   "keywords": [
@@ -22,10 +22,10 @@
     "index.js"
   ],
   "dependencies": {
-    "camelcase": "^1.0.2"
+    "camelcase": "^1.2.1"
   },
   "devDependencies": {
-    "chai": "^2.2.0",
-    "mocha": "^2.2.4"
+    "ava": "*",
+    "xo": "*"
   }
 }
