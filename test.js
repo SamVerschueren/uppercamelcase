@@ -1,7 +1,7 @@
 import test from 'ava';
 import fn from './';
 
-test('camelCase', t => {
+test('UpperCamelCase', t => {
 	t.is(fn('foo'), 'Foo');
 	t.is(fn('foo-bar'), 'FooBar');
 	t.is(fn('foo-bar-baz'), 'FooBarBaz');
