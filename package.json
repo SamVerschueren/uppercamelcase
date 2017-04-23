@@ -1,6 +1,6 @@
 {
   "name": "uppercamelcase",
-  "version": "1.1.0",
+  "version": "2.0.0",
   "description": "Convert a dash/dot/underscore/space separated string to UpperCamelCase",
   "license": "MIT",
   "repository": "SamVerschueren/uppercamelcase",
