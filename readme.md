@@ -2,11 +2,13 @@
 
 > Convert a dash/dot/underscore/space separated string to UpperCamelCase: `foo-bar` → `FooBar`
 
+
 ## Install
 
 ```sh
 $ npm install --save uppercamelcase
 ```
+
 
 ## Usage
 
@@ -36,16 +38,18 @@ console.log(process.argv[3]);
 upperCamelCase(process.argv[3]);
 //=> FooBar
 
-camelCase('foo', 'bar');
+upperCamelCase('foo', 'bar');
 //=> 'FooBar'
 
-camelCase('__foo__', '--bar');
+upperCamelCase('__foo__', '--bar');
 //=> 'FooBar'
 ```
+
 
 ## Related
 
 - [`camelcase`](https://github.com/sindresorhus/camelcase) - The lowerCamelCase variant
+
 
 ## License
 
