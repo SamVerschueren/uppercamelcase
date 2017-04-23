@@ -22,7 +22,7 @@ test(t => {
 	t.is(m('-'), '-');
 	t.is(m(' - '), '-');
 	t.is(m('fooBar'), 'FooBar');
-	t.is(m('fooBar-baz'), 'FoobarBaz');
+	t.is(m('fooBar-baz'), 'FooBarBaz');
 	t.is(m('F'), 'F');
 	t.is(m('Foo'), 'Foo');
 	t.is(m('FOO'), 'Foo');

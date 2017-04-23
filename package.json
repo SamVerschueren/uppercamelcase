@@ -25,7 +25,7 @@
     "case"
   ],
   "dependencies": {
-    "camelcase": "^1.2.1"
+    "camelcase": "^3.0.0"
   },
   "devDependencies": {
     "ava": "^0.17.0",
