@@ -2,10 +2,21 @@
   "name": "uppercamelcase",
   "version": "1.1.0",
   "description": "Convert a dash/dot/underscore/space separated string to UpperCamelCase",
+  "license": "MIT",
+  "repository": "SamVerschueren/uppercamelcase",
+  "author": {
+    "name": "Sam Verschueren",
+    "email": "sam.verschueren@gmail.com"
+  },
+  "engines": {
+    "node": ">=0.10"
+  },
   "scripts": {
     "test": "xo && ava"
   },
-  "repository": "SamVerschueren/uppercamelcase",
+  "files": [
+    "index.js"
+  ],
   "keywords": [
     "camelcase",
     "uppercamelcase",
@@ -13,19 +24,11 @@
     "camel",
     "case"
   ],
-  "author": {
-    "name": "Sam Verschueren",
-    "email": "sam.verschueren@gmail.com"
-  },
-  "license": "MIT",
-  "files": [
-    "index.js"
-  ],
   "dependencies": {
     "camelcase": "^1.2.1"
   },
   "devDependencies": {
-    "ava": "*",
-    "xo": "*"
+    "ava": "^0.17.0",
+    "xo": "^0.16.0"
   }
 }
