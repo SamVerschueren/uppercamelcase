@@ -13,7 +13,7 @@ $ npm install --save uppercamelcase
 ## Usage
 
 ```js
-var upperCamelCase = require('uppercamelcase');
+const upperCamelCase = require('uppercamelcase');
 
 upperCamelCase('foo-bar');
 //=> FooBar

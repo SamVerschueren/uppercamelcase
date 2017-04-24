@@ -9,7 +9,7 @@
     "email": "sam.verschueren@gmail.com"
   },
   "engines": {
-    "node": ">=0.10"
+    "node": ">=4"
   },
   "scripts": {
     "test": "xo && ava"
@@ -25,10 +25,10 @@
     "case"
   ],
   "dependencies": {
-    "camelcase": "^3.0.0"
+    "camelcase": "^4.1.0"
   },
   "devDependencies": {
-    "ava": "^0.17.0",
-    "xo": "^0.16.0"
+    "ava": "*",
+    "xo": "*"
   }
 }
