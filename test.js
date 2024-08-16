@@ -1,7 +1,7 @@
-import test from 'ava';
-import m from './';
+const test = require('ava');
+const m = require('./index.js');
 
-test(t => {
+test('uppercamelcase', t => {
 	t.is(m('foo'), 'Foo');
 	t.is(m('foo-bar'), 'FooBar');
 	t.is(m('foo-bar-baz'), 'FooBarBaz');

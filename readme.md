@@ -1,4 +1,4 @@
-# UpperCamelCase [![Build Status](https://travis-ci.org/SamVerschueren/uppercamelcase.svg?branch=master)](https://travis-ci.org/SamVerschueren/uppercamelcase)
+# UpperCamelCase ![CI](https://github.com/SamVerschueren/uppercamelcase/workflows/CI/badge.svg)
 
 > Convert a dash/dot/underscore/space separated string to UpperCamelCase: `foo-bar` → `FooBar`
 
